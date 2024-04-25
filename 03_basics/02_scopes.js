@@ -41,7 +41,7 @@ if (true) {
 // console.log(username);
 
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+// +++++++++++++++++++++++++++++ interesting +++++++++++++++++++++++++++++++++++
 
 
 console.log(addone(5))
@@ -52,7 +52,10 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)          // this way is called hoisting funt^n run phele krna to error mile gi 
 const addTwo = function(num){
     return num + 2
-}
+} 
+
+
+// ye error aye gi isko run krne se  ReferenceError: Cannot access 'addTwo' before initialization
